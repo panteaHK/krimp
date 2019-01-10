@@ -45,6 +45,16 @@
 # define DEBUG_NEW new
 #endif
 
+#ifdef __STDC_LIB_EXT1__
+#define __STDC_WANT_LIB_EXT1__ 1
+#include <string.h>
+#else
+#define memcpy_s(a, b, c, d) memcpy(a, c, d)
+#define sprintf_s(a, b, c, ...) sprintf(a, c, __VA_ARGS__)
+#define strcpy_s(a, b, c) strcpy(a, c)
+#endif
+#define UINT32_MAX_VALUE  0xFFFFFFFF
+
 #include <stdint.h>
 #include <stdio.h>
 #include <math.h>
@@ -64,6 +74,7 @@ typedef int16_t int16;
 typedef int32_t int32;
 typedef int32_t LONG;
 typedef int64_t int64;
+
 // Dit moet -na- STL shit staan
 // note-to-mvl: stl is niet cool
 #ifdef _MEMLEAK
