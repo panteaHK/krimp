@@ -11,6 +11,10 @@
 // 
 #ifndef __GLOBAL_H
 #define __GLOBAL_H
+#endif
+
+#ifndef _SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS
+#define _SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS 1
 
 // global application settings
 

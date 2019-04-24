@@ -7,7 +7,7 @@ project (fic)
 IF(UNIX)
 	# C++0x is the unofficial name of the planned new standard for the C++ programming language.
 	# --include is GCCs alternative to Visual Studios ForcedIncludeFiles.
-	set (CMAKE_CXX_FLAGS "-std=c++14 --include ${PROJECT_SOURCE_DIR}/LocalFic.h")
+	set (CMAKE_CXX_FLAGS "-std=c++14 -fopenmp --include ${PROJECT_SOURCE_DIR}/LocalFic.h")
 	IF (EXISTS /etc/release-gentoo)
 		set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -nopie")
 	ENDIF(EXISTS /etc/release-gentoo)
@@ -45,7 +45,7 @@ set (FIC_BIN krimp)
 set (FIC_LIBS Qtils Bass Croupier)
 
 # Add an executable to the project using the specified source files.
-add_executable (${FIC_BIN} ${FIC_SRCS})
+add_executable (${FIC_BIN} ${FIC_SRCS}) 
 
 # Link a target to given libraries.
 target_link_libraries (${FIC_BIN} ${FIC_LIBS})
@@ -59,3 +59,4 @@ ENDIF(EXISTS /etc/release-gentoo)
 # Specify rules to run at install time.
 #install (TARGETS ${FIC_BIN} RUNTIME DESTINATION bin)
 install (TARGETS ${FIC_BIN} RUNTIME DESTINATION ../bin)
+

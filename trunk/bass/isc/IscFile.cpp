@@ -126,7 +126,7 @@ int64 IscFile::GetFileSize() {
 		THROW("Unable to retrieve file size - file error or not opened.");
 #if defined(_WINDOWS)
 	struct _stati64 file;
-	_fstati64(mFile->_file, &file);
+	_fstati64((int)mFile->_Placeholder, &file);
 #elif defined (__unix__)
 	struct stat file;
 	fstat(mFile->_fileno, &file);

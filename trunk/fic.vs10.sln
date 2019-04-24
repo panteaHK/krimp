@@ -1,5 +1,7 @@
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2019
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fic", "fic.vs10.vcxproj", "{8717F7F8-1222-4FF4-9325-02A4E8F4B27C}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Qtils", "qtils\qtils.vs10.vcxproj", "{D1AF1684-86CE-4CC2-A29C-1B34C0716227}"
@@ -123,5 +125,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5666F067-838A-4B27-9817-FB3550C92DF1}
 	EndGlobalSection
 EndGlobal

@@ -1,0 +1,42 @@
+[1547538183] -- 15/01/2019 08:43:03 * Initiating (main,compress)
+[1547538680] -- 15/01/2019 08:51:20 * Initiating (main,compress)
+[1547538796] -- 15/01/2019 08:53:16 * Initiating (main,compress)
+[1547539156] -- 15/01/2019 08:59:16 * Initiating (main,compress)
+[1547539156] -- 15/01/2019 08:59:16 * Finished (main,compress)
+						This took about 0 seconds, peak mem usage: 52.04 Mb
+[1547539163] -- 15/01/2019 08:59:23 * Initiating (main,compress)
+[1547539163] -- 15/01/2019 08:59:23 * Finished (main,compress)
+						This took about 0 seconds, peak mem usage: 51.23 Mb
+[1547539298] -- 15/01/2019 09:01:38 * Initiating (main,compress)
+[1547539298] -- 15/01/2019 09:01:38 * Finished (main,compress)
+						This took about 0 seconds, peak mem usage: 51.23 Mb
+[1547552750] -- 15/01/2019 12:45:50 * Initiating (stream,encodestream)
+[1547552765] -- 15/01/2019 12:46:05 * Initiating (stream,encodestream)
+[1549881664] -- 11/02/2019 11:41:04 * Initiating (stream,encodestream)
+[1549881832] -- 11/02/2019 11:43:52 * Initiating (stream,encodestream)
+[1549883244] -- 11/02/2019 12:07:24 * Initiating (stream,encodestream)
+[1549891514] -- 11/02/2019 14:25:14 * Initiating (main,compress)
+[1549891514] -- 11/02/2019 14:25:33 * Finished (main,compress)
+						This took about 19 seconds, peak mem usage: 636.84 Mb
+[1549892553] -- 11/02/2019 14:42:33 * Initiating (stream,streamkrimp)
+[1549892566] -- 11/02/2019 14:42:46 * Initiating (stream,streamkrimp)
+[1549892652] -- 11/02/2019 14:44:12 * Initiating (stream,streamkrimp)
+[1549892664] -- 11/02/2019 14:44:24 * Initiating (stream,streamkrimp)
+[1549892707] -- 11/02/2019 14:45:07 * Initiating (stream,streamkrimp)
+[1549892824] -- 11/02/2019 14:47:04 * Initiating (stream,streamkrimp)
+[1549892903] -- 11/02/2019 14:48:23 * Initiating (stream,streamkrimp)
+[1549893022] -- 11/02/2019 14:50:22 * Initiating (stream,streamkrimp)
+[1549893022] -- 11/02/2019 14:50:25 * Finished (stream,streamkrimp)
+						This took about 3 seconds, peak mem usage: 53.41 Mb
+[1549898614] -- 11/02/2019 16:23:34 * Initiating (stream,encodestream)
+[1549898614] -- 11/02/2019 16:23:34 * Finished (stream,encodestream)
+						This took about 0 seconds, peak mem usage: 5.48 Mb
+[1549898626] -- 11/02/2019 16:23:46 * Initiating (stream,encodestream)
+[1549898626] -- 11/02/2019 16:23:46 * Finished (stream,encodestream)
+						This took about 0 seconds, peak mem usage: 5.47 Mb
+[1549899380] -- 11/02/2019 16:36:20 * Initiating (stream,encodestream)
+[1549899380] -- 11/02/2019 16:36:21 * Finished (stream,encodestream)
+						This took about 1 seconds, peak mem usage: 5.46 Mb
+[1554296622] -- 03/04/2019 15:03:42 * Initiating (main,compress)
+[1554296622] -- 03/04/2019 15:04:07 * Finished (main,compress)
+						This took about 25 seconds, peak mem usage: 52.49 Mb
